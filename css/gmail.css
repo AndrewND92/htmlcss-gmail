@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image: url("img_gmail/temasfondo.jpg");
+}
+
+header{
+margin-bottom: 10px;
+}
+
+main{
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+footer{
+  color: white;
+  font-style:italic;
+  text-align: center;
+}
+ hr{
+   border: 1px solid white;
+ }
+.check {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* span delle mail_____________ */
+.opaca{
+  font-size: 20px;
+  color: rgba(43, 43, 43, 0.5);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ogg_mail {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* div delle mail________________ */
+.letti {
+  background-color: gainsboro;
+  border: 1px solid black;
+  padding: 3px;
+
+}
+.nonletti{
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+#ricerca{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#listamail{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#unread{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#search{
+  margin-bottom: 20px;
+}
+
+#logo {
+  width: 100px;
+  vertical-align: middle;
+}
+
+#principale{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#circle {
+  background-color: orange;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+#eminus{
+  color: rgba(43, 43, 43, 0.5);
+}
+#footergmail{
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+  margin-right: 10px;
+}
